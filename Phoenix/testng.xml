@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test"> 
+  
+  <listeners>
+         <listener class-name="com.cbs.phoenix.reports.ExtentReporterNG" />
+         <listener class-name="com.cbs.phoenix.listeners.TestListener" /> 
+        
+    </listeners>
+    <classes>
+ <!--      <class name="com.cbs.phoenix.testcases.AddShowTest"/>
+      <class name="com.cbs.phoenix.testcases.TC_AiringMoves_Replace_27951"/>
+      <class name="com.cbs.phoenix.testcases.TC_AiringSchedule_61361"/>
+      <class name="com.cbs.phoenix.testcases.TC_AiringShow"/>
+      <class name="com.cbs.phoenix.testcases.TC_Create_Broadcast"/>
+      <class name="com.cbs.phoenix.testcases.TC_Create_Deal"/>
+      <class name="com.cbs.phoenix.testcases.TC_DeleteShow_53512"/>
+      <class name="com.cbs.phoenix.testcases.TC_Duplicate_55728"/>
+      <class name="com.cbs.phoenix.testcases.TC_EditSalesShow_53511"/>
+      <class name="com.cbs.phoenix.testcases.TC_NewBroadCastItemPageTest"/>
+      <class name="com.cbs.phoenix.testcases.TC_PlaneShow_63261"/>
+      <class name="com.cbs.phoenix.testcases.TC_SalesShow"/>
+      <class name="com.cbs.phoenix.testcases.TC_Save_Reset_63926"/>
+      <class name="com.cbs.phoenix.testcases.TC_ScatterHoldWebApproval_44325"/>
+      <class name="com.cbs.phoenix.testcases.TC_ScatterOrderWebApproval_44326"/>
+      <class name="com.cbs.phoenix.testcases.TC_ScatterPartialOrderWebWpproval_63643"/>
+      <class name="com.cbs.phoenix.testcases.TC_UpfrontOrderWebapproval_44324"/>
+      <class name="com.cbs.phoenix.testcases.TC_Upfrontpartialwebapproval_63642"/>
+      <class name="com.cbs.phoenix.testcases.TC_UpfrontplanApproval_44322"/> 
+      <class name="com.cbs.phoenix.testcases.TC_UpfrontPlanRequestWebApproal_44321"/> -->
+     <!--  <class name="com.cbs.phoenix.testcases.TC_CreateSalesShow_53510"/> -->                    
+      <!-- <class name ="com.cbs.phoenix.testcases.TC_AiringSchedule_61361"/> --> 
+    <!--   <class name="com.cbs.phoenix.testcases.TC_Report"/>  -->
+       <!-- <class name="com.cbs.phoenix.testcases.TC_Notification_ChangeRequest_DoOver_44988"/>  -->
+      <!--  <class name="com.cbs.phoenix.testcases.TC_Notification_MSUApprove_45073"/> --> 
+       <!--<class name="com.cbs.phoenix.testcases.TC_Notification_MSUApprove_45049"/> -->
+       <!-- <class name="com.cbs.phoenix.testcases.TC_Notification_MSUApprove_44900"/> -->  
+      <!--  <class name="com.cbs.phoenix.testcases.TC_MoveAiring_28544"/> -->
+       
+     <!--   <class name="com.cbs.phoenix.testcases.TC_Notification_ChangeRequest_Reject_44973"/>  -->
+       
+       <!-- <class name="com.cbs.phoenix.testcases.TC_Notification_ChangeRequest_Reject_44974"/>  -->
+      <!--  <class name="com.cbs.phoenix.testcases.TC_PreemptAiring_47753"/>  -->     
+      
+       <!-- <class name="com.cbs.phoenix.testcases.TC_Reportslatest"/> -->
+       
+       <!-- <class name="com.cbs.phoenix.testcases.TC_AiringReplace_28048"/> -->  
+       <!-- <class name="com.cbs.phoenix.testcases.TC_Airingmovedispose_29133"/>  --> 
+       
+       <!-- <class name="com.cbs.phoenix.testcases.TC_AiringMovePagelatest_29133"/> -->
+       
+       <!-- <class name="com.cbs.phoenix.testcases.TC_AiringDispose_29133"/>  -->       
+        <class name="com.cbs.phoenix.testcases.TC_Preempt_47753"/> 
+        
+       <!--  <class name="com.cbs.phoenix.testcases.TC_Notification_ChangeRequest_Doover_44999"/>  -->
+        
+        <!-- <class name="com.cbs.phoenix.testcases.TC_Notification_Cutsbacks_Reject_55472"/> -->
+        
+        <!-- <class name="com.cbs.phoenix.testcases.TC_Notification_Cutbacks_Approve_55466"/> -->
+        
+       <!--  <class name="com.cbs.phoenix.testcases.TC_Notification_ChangeRequest_44977"/> -->
+        
+       <!--  <class name="com.cbs.phoenix.testcases.TC_Notification_OptionChangeReject_55471"/> -->
+        
+        <!-- <class name="com.cbs.phoenix.testcases.TC_Notification_OptionChangeApprove_55607"/> -->
+        
+        
+        <!-- <class name="com.cbs.phoenix.testcases.TC_AiringMovelast_29133"/> -->
+        
+      <!--   <class name="com.cbs.phoenix.testcases.TC_AiringMove_CloseBilling_24299"/>  -->       
+        
+        <!-- <class name="com.cbs.phoenix.testcases.TC_AiringGenerate_50175"/> -->
+        
+        <!-- <class name="com.cbs.phoenix.testcases.TC_AiringGenerate_Shadow_30630"/> --> 
+        <!-- <class name="com.cbs.phoenix.testcases.TC_AiringSchedule_61361"/>  -->  
+                   
+      
+                    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

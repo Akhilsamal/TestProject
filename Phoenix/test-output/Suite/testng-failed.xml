@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.cbs.phoenix.reports.ExtentReporterNG"/>
+    <listener class-name="com.cbs.phoenix.listeners.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cbs.phoenix.testcases.TC_Preempt_47753">
+        <methods>
+          <include name="TC_47753"/>
+          <include name="aftersuite"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="beforesuit"/>
+          <include name="Launch_Phoenix_Application"/>
+        </methods>
+      </class> <!-- com.cbs.phoenix.testcases.TC_Preempt_47753 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
